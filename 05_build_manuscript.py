@@ -260,9 +260,9 @@ def build_docx(man, week1, grid, miss, ctd, stop, dock, tcga):
     h(doc, "Data availability")
     p(
         doc,
-        "Locked tables, threshold grid, docking logs and scripts: the art_hcc_twogroup folder and its GitHub/Zenodo copy. "
-        "A Zenodo DOI is recorded in manuscript/ZENODO.md when minted. GEO: GSE149614, GSE125449. TCGA-LIHC via UCSC Xena. "
-        "HPA JSON accessed on the run date.",
+        "Locked tables, threshold grid, docking logs and scripts: https://github.com/zhazhayv/art-hcc-twogroup "
+        "and Zenodo https://doi.org/10.5281/zenodo.23156173 (version DOI 10.5281/zenodo.23156174). "
+        "GEO: GSE149614, GSE125449. TCGA-LIHC via UCSC Xena. HPA JSON accessed on the run date.",
     )
     h(doc, "Conflict of interest")
     p(
@@ -320,11 +320,13 @@ def main():
     cl = cover_letter(stop, dock)
     (MS / "ZENODO.md").write_text(
         "# Zenodo DOI\n\n"
-        "1. Push this art_hcc_twogroup folder to GitHub.\n"
-        "2. On https://zenodo.org/account/settings/github/ enable the repository.\n"
-        "3. Create a GitHub Release; Zenodo mints a DOI.\n"
-        "4. Paste the DOI below and in the manuscript Data availability section.\n\n"
-        "DOI: pending-release\n"
+        "GitHub: https://github.com/zhazhayv/art-hcc-twogroup\n"
+        "Release archived: v1.0.1\n"
+        "Record: https://zenodo.org/records/23156174\n\n"
+        "This version: https://doi.org/10.5281/zenodo.23156174\n"
+        "All versions (cite this): https://doi.org/10.5281/zenodo.23156173\n\n"
+        "DOI: 10.5281/zenodo.23156173\n"
+        "Version DOI: 10.5281/zenodo.23156174\n"
         "Prepared: %s\n" % date.today().isoformat(),
         encoding="utf-8",
     )

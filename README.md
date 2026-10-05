@@ -1,6 +1,11 @@
 # Artesunate-HCC two-group in silico paper
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23156173.svg)](https://doi.org/10.5281/zenodo.23156173)
+
 Home folder: `C:\Users\20917\Desktop\art&hcc` (do not write outputs into HA_docking).
+
+Cite: https://doi.org/10.5281/zenodo.23156173  
+GitHub: https://github.com/zhazhayv/art-hcc-twogroup
 
 Locked lists:
 

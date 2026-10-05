@@ -12,6 +12,10 @@ git commit -m "Locked two-group artesunate-HCC in silico package."
 gh repo create art-hcc-twogroup --private --source . --remote origin --push
 ```
 
-Then enable Zenodo GitHub integration, create a Release, and paste the DOI into `manuscript/ZENODO.md`.
+Zenodo DOI (all versions): https://doi.org/10.5281/zenodo.23156173  
+Version v1.0.1: https://doi.org/10.5281/zenodo.23156174  
+GitHub: https://github.com/zhazhayv/art-hcc-twogroup
+
+The repository must be **public** for Zenodo GitHub integration (private repos are not listed).
 
 Do not upload `results/cohort_cache/` (GEO/Xena raw cache). Derived tables in `results/*.csv` are enough to audit the figures.
