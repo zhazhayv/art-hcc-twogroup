@@ -1,0 +1,4 @@
+gene,aliases_checked,in_swiss,swiss_probability,in_ctd,genecards_symbol_used,genecards_relevance,miss_steps
+GBA,"GBA,GBA1",False,,False,GBA1,5.5211873,absent_from_swiss; absent_from_ctd; survives_genecards_gt2 as GBA1=5.5211873
+MMP9,MMP9,True,0.000934254325799,False,MMP9,22.255468,swiss_probability_below_0.1 (p=0.000934254325799); absent_from_ctd; survives_genecards_gt2 as MMP9=22.255468
+MGEA5,"MGEA5,OGA",False,,False,OGA,1.3820301,absent_from_swiss; absent_from_ctd; genecards_score_le_2 (OGA=1.3820301)

@@ -1,0 +1,8 @@
+[
+  "GSE149614 GEO samples parsed: 21",
+  "GSE125449 GEO samples parsed: 19",
+  "GSE149614 meta=C:\\Users\\20917\\Desktop\\HA_docking\\art_hcc_twogroup\\results\\cohort_cache\\GSE149614_metadata.tsv expr=C:\\Users\\20917\\Desktop\\HA_docking\\art_hcc_twogroup\\results\\cohort_cache\\GSE149614_nine_genes.tsv bytes=3023443",
+  "GSE125449 TISCH average empty",
+  "GSE125449 used HPA fallback",
+  "TCGA genes ['BAX', 'BCL2', 'CASP3', 'CASP9', 'FAS', 'GBA', 'MGEA5', 'MMP9', 'PARP1'] samples 423"
+]

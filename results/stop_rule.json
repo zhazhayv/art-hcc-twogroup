@@ -1,0 +1,12 @@
+{
+  "GSE149614_network_mode_class": "Hepatocyte_cholangiocyte",
+  "GSE149614_experimental_mode_class": "Hepatocyte_cholangiocyte",
+  "GSE149614_separated": false,
+  "GSE125449_separated": null,
+  "stop_rule_triggered": true,
+  "continue_celltype_story": false,
+  "rule": "Main-cohort mode peak class of network6 != experimental3 AND GSE125449 also separated. Else stop at threshold grid + miss path.",
+  "MMP9_myeloid_19_of_21": true,
+  "note": "MMP9 myeloid peak is consistent with the original GSE149614 macrophage description and is not treated as a new finding. Group-mode classes did not separate, so the stop-rule remains triggered.",
+  "GSE125449_status": "TISCH2 averages not downloaded; second-cohort map not used to pass the stop-rule."
+}

@@ -1,0 +1,109 @@
+[
+  {
+    "gene": "GBA",
+    "pdb": "2V3E",
+    "note": "Human GBA catalytic domain with iminosugar; align to Chen et al. GBA active-site residues",
+    "het_counts": {
+      "NND": 40
+    },
+    "crystal_ligand": "NND",
+    "box_center": [
+      36.01,
+      31.83,
+      -3.41
+    ],
+    "box_size": [
+      16.0,
+      16.0,
+      20.1
+    ],
+    "redock_seed0_score": -5.6,
+    "redock_rmsd_inplace": 4.396556044223706,
+    "redock_rmsd_getbestrms": 2.700533529146616,
+    "pass_2A": false,
+    "main_figure": false,
+    "status": "redock_fail",
+    "art_dha": "not_run_pocket_failed_gate"
+  },
+  {
+    "gene": "MMP9",
+    "pdb": "1GKC",
+    "note": "Human MMP9 catalytic domain with hydroxamate inhibitor",
+    "het_counts": {
+      "NFH": 44
+    },
+    "crystal_ligand": "NFH",
+    "box_center": [
+      65.61,
+      31.08,
+      117.84
+    ],
+    "box_size": [
+      16.0,
+      16.0,
+      18.3
+    ],
+    "redock_seed0_score": -6.1,
+    "redock_rmsd_inplace": 4.4523799458063085,
+    "redock_rmsd_getbestrms": 3.0396133806370806,
+    "pass_2A": false,
+    "main_figure": false,
+    "status": "redock_fail",
+    "art_dha": "not_run_pocket_failed_gate"
+  },
+  {
+    "gene": "MGEA5",
+    "pdb": "5VVV",
+    "note": "Human OGA catalytic domain with active-site ligand; OGA=MGEA5",
+    "het_counts": {},
+    "crystal_ligand": null,
+    "status": "no_organic_ligand",
+    "main_figure": false
+  },
+  {
+    "gene": "TRYPSIN_NEG",
+    "pdb": "3PTB",
+    "note": "Unrelated protein negative control (trypsin/benzamidine)",
+    "het_counts": {
+      "BEN": 9
+    },
+    "crystal_ligand": "BEN",
+    "box_center": [
+      -1.86,
+      14.37,
+      16.75
+    ],
+    "box_size": [
+      16.0,
+      16.0,
+      16.0
+    ],
+    "redock_seed0_score": -4.6,
+    "redock_rmsd_inplace": 0.5681393608379317,
+    "redock_rmsd_getbestrms": null,
+    "pass_2A": true,
+    "main_figure": false,
+    "status": "redock_pass",
+    "scores": {
+      "crystal_ligand": [
+        -4.6,
+        -4.6,
+        -4.6
+      ],
+      "Artesunate": [
+        -6.7,
+        -6.7,
+        -6.9
+      ],
+      "DHA": [
+        -6.0,
+        -6.0,
+        -5.9
+      ]
+    },
+    "second_engine": {
+      "engine": null,
+      "note": "GNINA/smina/python-vina unavailable: No module named 'vina'"
+    }
+  }
+]

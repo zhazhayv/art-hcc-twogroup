@@ -1,0 +1,8 @@
+{
+  "n_grid_cells": 18,
+  "swiss_thresholds_collapse": true,
+  "MMP9_swiss_probability": 0.000934254325799,
+  "primary_strict14_first_kegg": "Apoptosis",
+  "primary_full67_first_kegg": "Lipid and atherosclerosis",
+  "ctd_typing": "untyped_gene_chemical_record"
+}

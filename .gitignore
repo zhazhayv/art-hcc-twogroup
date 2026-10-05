@@ -1,0 +1,8 @@
+results/cohort_cache/
+results/api_cache/
+docking/**/*.pdb
+docking/**/*.pdbqt
+docking/**/*_out.pdbqt
+__pycache__/
+*.pyc
+.DS_Store

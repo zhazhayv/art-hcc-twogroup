@@ -1,0 +1,9 @@
+{
+  "title": "Evidence filtering and cell-type context separate a network-apoptosis cassette from experimentally supported artesunate-HCC proteins",
+  "upload_type": "dataset",
+  "description": "Locked SwissTargetPrediction, CTD, GeneCards and 660-edge STRING tables, threshold grid, nine-gene cohort tables, and docking logs for a two-group in silico artesunate-HCC study. No wet-lab data.",
+  "creators": [{"name": "To be set", "affiliation": "To be set"}],
+  "keywords": ["artesunate", "hepatocellular carcinoma", "network pharmacology", "molecular docking"],
+  "license": "cc-by-4.0",
+  "access_right": "open"
+}

@@ -1,0 +1,13 @@
+Dear Editors,
+
+Please consider our computational manuscript, "Evidence filtering and cell-type context separate a network-apoptosis cassette from experimentally supported artesunate-HCC proteins," for Frontiers in Pharmacology.
+
+This study contains no cell, organoid, animal or clinical experiment. We do not nominate a new artesunate target and we do not claim a treatment mechanism. The contribution is a two-group contrast: a locked network-apoptosis cassette (PARP1, BCL2, CASP3, BAX, FAS, CASP9) versus experimentally supported proteins (GBA, MMP9, OGA/MGEA5). We show how a pre-registered Swiss/GeneCards/STRING grid and a documented miss-path keep the experimental proteins outside the default network, and we restrict docking of artesunate and dihydroartemisinin to co-crystal pockets that pass a 2 A redocking gate (BCL2/4LVT reused; CASP3 and PARP1 supplementary only).
+
+Stop-rule (single-cell): {"GSE149614_network_mode_class": "Hepatocyte_cholangiocyte", "GSE149614_experimental_mode_class": "Hepatocyte_cholangiocyte", "GSE149614_separated": false, "GSE125449_separated": null, "stop_rule_triggered": true, "continue_celltype_story": false, "rule": "Main-cohort mode peak class of network6 != experimental3 AND GSE125449 also separated. Else stop at threshold grid + miss path.", "MMP9_myeloid_19_of_21": true, "note": "MMP9 myeloid peak is consistent with the original GSE149614 macrophage description and is not treated as a new finding. Group-mode classes did not separate, so the stop-rule remains triggered.", "GSE125449_status": "TISCH2 averages not downloaded; second-cohort map not used to pass the stop-rule."}
+Docking/MD gate: {"n_passed_experimental": 0, "md_section": "omit", "bcl2_4lvt": {"reuse": true, "GetBestRMS": 1.54, "ART": -7.5, "DHA": -7.9, "source": "HA_docking/_p0_tmp/BCL2_4LVT"}, "CASP3_PARP1": "supplement only"}
+
+If the absence of wet-lab validation is judged incompatible with the journal, we ask that the manuscript be declined promptly so that we may submit to Computational and Structural Biotechnology Journal.
+
+Yours sincerely,
+[Corresponding author]

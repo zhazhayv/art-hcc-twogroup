@@ -1,0 +1,7 @@
+gene,in_ctd,interaction_class,raw_interaction,note
+PARP1,True,untyped_gene_chemical_record,CTD gene-chemical association (Harmonizome export),Export is Harmonizome CTD association; binding vs expression vs inferred not labelled.
+BCL2,True,untyped_gene_chemical_record,CTD gene-chemical association (Harmonizome export),Export is Harmonizome CTD association; binding vs expression vs inferred not labelled.
+CASP3,True,untyped_gene_chemical_record,CTD gene-chemical association (Harmonizome export),Export is Harmonizome CTD association; binding vs expression vs inferred not labelled.
+BAX,True,untyped_gene_chemical_record,CTD gene-chemical association (Harmonizome export),Export is Harmonizome CTD association; binding vs expression vs inferred not labelled.
+FAS,True,untyped_gene_chemical_record,CTD gene-chemical association (Harmonizome export),Export is Harmonizome CTD association; binding vs expression vs inferred not labelled.
+CASP9,True,untyped_gene_chemical_record,CTD gene-chemical association (Harmonizome export),Export is Harmonizome CTD association; binding vs expression vs inferred not labelled.

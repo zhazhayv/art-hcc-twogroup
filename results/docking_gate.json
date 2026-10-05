@@ -1,0 +1,12 @@
+{
+  "n_passed_experimental": 0,
+  "md_section": "omit",
+  "bcl2_4lvt": {
+    "reuse": true,
+    "GetBestRMS": 1.54,
+    "ART": -7.5,
+    "DHA": -7.9,
+    "source": "HA_docking/_p0_tmp/BCL2_4LVT"
+  },
+  "CASP3_PARP1": "supplement only"
+}
